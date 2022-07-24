@@ -45,7 +45,28 @@ The template ends with a small section about analyzing and visualizing data. Uda
 
 ## Data Files
 
+There are 4 data files in this project, 3 of which are actually raw data files that are downloaded from the Udacity servers:
+
+  1. image-predictions.tsv has the predictions of an image classifier for object detection. The classifier aims to predict dog pictures here correctly and the file includes the classifier results. The classifier itself is not included in this project.
+  2. twitter-archive-enhanced.csv has the tweet text, tweet source, dog name, dog age, dog ratings etc. from the WeRateDogs channel.
+  3. tweet-json.txt has JSON records downloaded from the Twitter page using the Twitter API. Each record includes additional information not included in the former file such as retweet count, favorite count etc. The tweets are all from WeRateDogs channel.
+
+The 4th file is a data file that I generated after cleaning various data quality and structural issues.
+
+  - twitter-archive-master.csv
+
+## Report files
+
+There are two report files in the project:
+
+  - wrangle_report.pdf explains all the steps to clean the data, including all the details about gathering, assessment and cleaning. This report explains the details of the primary objective of this project.
+  - act_report.pdf explains all the insights derived from the cleaned data. It includes the answers for the questions in the secondary objective and a relevant plot.
+
 ## Source Code Files
+
+  - wrangle_act.ipynb is a Jupyter notebook file including all the scripts for data wrangling and analysis.
+
+Note that I didn't remove the comments and tips provided by the Udacity instructors for general audience. It makes it easier to follow and to generalize to other datasets and problems at hand.
 
 # Running Instructions
 
