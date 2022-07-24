@@ -75,6 +75,7 @@ As long as you have an installed Jupyter notebook server on your desktop with th
 # Requirements
 
   - conda==4.12.0 (optional)
+  - jupyter notebook==6.4.11
   - python==3.9.12
   - pandas==1.4.2
   - numpy==1.21.5
