@@ -81,3 +81,4 @@ As long as you have an installed Jupyter notebook server on your desktop with th
   - numpy==1.21.5
   - json==2.0.9
   - requests==2.27.1
+  - matplotlib==3.5.1
