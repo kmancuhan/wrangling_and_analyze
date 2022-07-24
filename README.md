@@ -73,3 +73,10 @@ Note that I didn't remove the comments and tips provided by the Udacity instruct
 As long as you have an installed Jupyter notebook server on your desktop with the required packages, you should be able to run the code. I am using the Anaconda virtual environment, although it is not necessary for running the project.
 
 # Requirements
+
+  - conda==4.12.0 (optional)
+  - python==3.9.12
+  - pandas==1.4.2
+  - numpy==1.21.5
+  - json==2.0.9
+  - requests==2.27.1
