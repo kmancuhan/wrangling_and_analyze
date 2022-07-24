@@ -70,4 +70,6 @@ Note that I didn't remove the comments and tips provided by the Udacity instruct
 
 # Running Instructions
 
+As long as you have an installed Jupyter notebook server on your desktop with the required packages, you should be able to run the code. I am using the Anaconda virtual environment, although it is not necessary for running the project.
+
 # Requirements
