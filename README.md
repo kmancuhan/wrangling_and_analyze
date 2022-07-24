@@ -53,7 +53,7 @@ There are 4 data files in this project, 3 of which are actually raw data files t
 
 The 4th file is a data file that I generated after cleaning various data quality and structural issues.
 
-  - twitter-archive-master.csv
+  - twitter-archive-master.csv includes all the features of the three different files above after cleaning the data quality issues on each file.
 
 ## Report files
 
